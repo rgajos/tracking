@@ -16,7 +16,53 @@
           <artifactId>javax.servlet-api</artifactId>
           <version>3.1.0</version>
       </dependency>
-
+<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.2-1003-jdbc4</version>
+		 <type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.25</version>
+		</dependency>     
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+	 <dependency>
+	  <groupId>com.google.code.gson</groupId>
+	  <artifactId>gson</artifactId>
+	  <version>2.3.1</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>com.googlecode.json-simple</groupId>
+	  <artifactId>json-simple</artifactId>
+	  <version>1.1</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>javax.mail</groupId>
+	  <artifactId>mail</artifactId>
+	  <version>1.4.7</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>caja</groupId>
+	  <artifactId>json_simple</artifactId>
+	  <version>r1</version>
+	  <type>jar</type>
+	 </dependency>
+	 <dependency>
+	  <groupId>com.google.gwt</groupId>
+	  <artifactId>gwt-dev</artifactId>
+	  <version>2.5.0-redhat-1</version>
+	  <type>jar</type>
+	 </dependency>
   </dependencies>
   <build>
     <finalName>getting-started-tomcat</finalName>
