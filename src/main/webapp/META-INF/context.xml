@@ -32,10 +32,10 @@
     -->
 
     <Resource name="jdbc/MySQLDS"
-              url="jdbc:mysql://${OPENSHIFT_MYSQL_DB_HOST}:${OPENSHIFT_MYSQL_DB_PORT}/${OPENSHIFT_APP_NAME}"
+              url="jdbc:mysql://172.30.14.156:3306/familytracker"
               driverClassName="com.mysql.jdbc.Driver"
-              username="${OPENSHIFT_MYSQL_DB_USERNAME}"
-              password="${OPENSHIFT_MYSQL_DB_PASSWORD}"
+              username="adminvh22Hjn"
+              password="8tpTJGF9afW9"
               auth="Container"
               type="javax.sql.DataSource"
               maxActive="20"
