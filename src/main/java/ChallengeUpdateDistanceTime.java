@@ -121,6 +121,7 @@ public class ChallengeUpdateDistanceTime extends HttpServlet {
                         insertRecordQuery = "insert into challenge_walking_42195 (name, time, country) values (?,?,?)";
                         break;
                     case 17:
+                        int i =0;
                         insertRecordQuery = "insert into challenge_running_2000 (name, time, country) values (?,?,?)";
                         break;
                     case 18:
