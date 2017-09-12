@@ -64,7 +64,8 @@ public class ChallengeUpdateDistanceTime extends HttpServlet {
             DataSource datasource = (DataSource) initialContext.lookup("jdbc/MySQLDS");
             connection = datasource.getConnection();
 
-
+            int i = 0;
+            int i2 = 0;
             if ((Long)jsonObject.get("id") == 0) {
                 
                 String insertRecordQuery = "";
