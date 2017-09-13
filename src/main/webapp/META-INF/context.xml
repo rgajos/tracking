@@ -32,10 +32,10 @@
     -->
 
     <Resource name="jdbc/MySQLDS"
-              url="jdbc:mysql://172.31.57.117:3306/familytracker"
+              url="jdbc:mysql://172.30.103.69:3306/familytracker"
               driverClassName="com.mysql.jdbc.Driver"
-              username="root"
-              password="0nxd2HctuovM3nBe"
+              username="adminvh22Hjn"
+              password="8tpTJGF9afW9"
               auth="Container"
               type="javax.sql.DataSource"
               maxActive="20"
