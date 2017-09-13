@@ -41,9 +41,7 @@
               maxActive="20"
               maxIdle="5"
               maxWait="10000"
-              autoReconnect="true"
-              testWhileIdle="true"
-              timeBetweenEvictionRunsMillis="300000"/>
+              autoReconnect="true"/>
                
     <Resource name="jdbc/PostgreSQLDS"
               url="jdbc:postgresql://${OPENSHIFT_POSTGRESQL_DB_HOST}:${OPENSHIFT_POSTGRESQL_DB_PORT}/${OPENSHIFT_APP_NAME}"
